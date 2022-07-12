@@ -1,0 +1,18 @@
+//dummy frontend
+POST http://localhost:5000/userIssue/createUserIssue
+Content-Type: application/json
+
+{
+    "firstName": "Minkii"
+}
+
+###
+POST https://great-clgapp.herokuapp.com/userIssue/createUserIssue
+Content-Type: application/json
+
+{
+    "firstName": "Goyal"
+}
+
+###
+GET http://localhost:5000/userIssue/getUserIssues
